@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../../assets/images/logo1.png";
-import "./navbar.css";
 import Social from "../Social/Social";
 function Navbar() {
   const [nav, setNav] = useState(false);

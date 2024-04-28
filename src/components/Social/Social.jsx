@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 function Social() {
   return (
-    <div className="flex fixed flex-col top-[35%] left-0">
+    <div className="hidden lg:block flex fixed flex-col top-[35%] left-0">
       <ul>
         {/* Start linkdin */}
         <li className="w-[150px] h-[40px] pt-[5px] ml-[-100px] pr-2 pt-1 justify-between items-center hover:ml-[-10px] duration-300 bg-sky-500">
@@ -16,6 +16,7 @@ function Social() {
             <FaLinkedin size={30} />
           </a>
         </li>
+        {/* Start GitHub */}
         <li className="w-[150px] h-[40px] pt-[5px] ml-[-100px] pr-2 pt-1 justify-between items-center hover:ml-[-10px] duration-300 bg-[#333]">
           <a
             href="/"
@@ -25,6 +26,7 @@ function Social() {
             <FaGithub size={30} />
           </a>
         </li>
+        {/* Start Instagram */}
         <li className="w-[150px] h-[40px] pt-[5px] ml-[-100px] pr-2 pt-1 justify-between items-center hover:ml-[-10px] duration-300 bg-red-600">
           <a
             href="/"
@@ -34,6 +36,7 @@ function Social() {
             <FaInstagram size={30} />
           </a>
         </li>
+        {/* Start Email */}
         <li className="w-[150px] h-[40px] pt-[5px] ml-[-100px] pr-2 pt-1 justify-between items-center hover:ml-[-10px] duration-300 bg-green-700">
           <a
             href="/"
@@ -43,6 +46,7 @@ function Social() {
             <HiOutlineMail size={30} />
           </a>
         </li>
+        {/* Start Resume */}
         <li className="w-[150px] h-[40px] pt-[5px] ml-[-100px] pr-2 pt-1 justify-between items-center hover:ml-[-10px] duration-300 bg-yellow-600">
           <a
             href="/"
