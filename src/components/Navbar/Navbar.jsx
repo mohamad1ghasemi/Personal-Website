@@ -7,43 +7,46 @@ function Navbar() {
   const [nav, setNav] = useState(false);
   const handleclick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0A192F] text-white">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-navyBlue text-white">
       {/* add logo image */}
       <div>
         <a href="/">
-          <img src={Logo} alt="logo" style={{ width: "80px" }} />
+          <img src={Logo} alt="logo" className="w-[85px]" />
         </a>
       </div>
       {/* start main menu */}
-      <ul className="hidden md:flex">
-        <li>
+      <ul className="hidden md:flex text-[1.4rem] mr-[8rem]">
+        <li className="hover:border-b-2 border-mainColor-2">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="hover:border-b-2 border-mainColor-2">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className="hover:border-b-2 border-mainColor-2">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className="hover:border-b-2 border-mainColor-2">
           <Link to="works" smooth={true} duration={500}>
             Works
           </Link>
         </li>
-        <li>
+        <li className="hover:border-b-2 border-mainColor-2">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
       </ul>
       {/* humberger menu button */}
-      <div onClick={handleclick} className="md:hidden z-10 cursor-pointer">
+      <div
+        onClick={handleclick}
+        className="md:hidden text-[3rem] z-10 cursor-pointer"
+      >
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -52,7 +55,7 @@ function Navbar() {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0A192F] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-navyBlue flex flex-col justify-center items-center"
         }
       >
         <ul>

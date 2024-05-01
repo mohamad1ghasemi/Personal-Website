@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e55d531.css",
+    "main.js": "/static/js/main.015eb07c.js",
+    "static/media/Sample1.png": "/static/media/Sample1.b1032f76db90b4dbf549.png",
+    "static/media/Mohammad Gasemi CV.pdf": "/static/media/Mohammad Gasemi CV.6476218cb9b7ede0eb39.pdf",
+    "static/media/ResponsiveDesign.png": "/static/media/ResponsiveDesign.6dd6b534ffb1722ba90b.png",
+    "static/media/sass.png": "/static/media/sass.7cdbf6b5889c42b3e490.png",
+    "static/media/git.png": "/static/media/git.8dd3688bb1415872d423.png",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/logo1.png": "/static/media/logo1.26ada994f5c18749325f.png",
+    "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.ba8654d9501867ae74c9.png",
+    "static/media/js.png": "/static/media/js.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/tailwindcss.svg": "/static/media/tailwindcss.79614a5f61617ba49a0891494521226b.svg",
+    "index.html": "/index.html",
+    "main.4e55d531.css.map": "/static/css/main.4e55d531.css.map",
+    "main.015eb07c.js.map": "/static/js/main.015eb07c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e55d531.css",
+    "static/js/main.015eb07c.js"
+  ]
+}
