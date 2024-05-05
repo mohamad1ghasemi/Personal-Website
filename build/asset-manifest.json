@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e55d531.css",
-    "main.js": "/static/js/main.015eb07c.js",
-    "static/media/Sample1.png": "/static/media/Sample1.b1032f76db90b4dbf549.png",
+    "main.css": "/static/css/main.260fd4b2.css",
+    "main.js": "/static/js/main.2f194453.js",
+    "static/media/Sample1.png": "/static/media/Sample1.e72e3e193d0a0f035d15.png",
+    "static/media/Sample2.png": "/static/media/Sample2.b1032f76db90b4dbf549.png",
     "static/media/Mohammad Gasemi CV.pdf": "/static/media/Mohammad Gasemi CV.6476218cb9b7ede0eb39.pdf",
     "static/media/ResponsiveDesign.png": "/static/media/ResponsiveDesign.6dd6b534ffb1722ba90b.png",
+    "static/media/Sample3.png": "/static/media/Sample3.62b170014f1c66dd3437.png",
     "static/media/sass.png": "/static/media/sass.7cdbf6b5889c42b3e490.png",
     "static/media/git.png": "/static/media/git.8dd3688bb1415872d423.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -16,11 +18,11 @@
     "static/media/js.png": "/static/media/js.1ccd6ef9bb1f9c84ef00.png",
     "static/media/tailwindcss.svg": "/static/media/tailwindcss.79614a5f61617ba49a0891494521226b.svg",
     "index.html": "/index.html",
-    "main.4e55d531.css.map": "/static/css/main.4e55d531.css.map",
-    "main.015eb07c.js.map": "/static/js/main.015eb07c.js.map"
+    "main.260fd4b2.css.map": "/static/css/main.260fd4b2.css.map",
+    "main.2f194453.js.map": "/static/js/main.2f194453.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e55d531.css",
-    "static/js/main.015eb07c.js"
+    "static/css/main.260fd4b2.css",
+    "static/js/main.2f194453.js"
   ]
 }
