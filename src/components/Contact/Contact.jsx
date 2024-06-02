@@ -10,10 +10,9 @@ const Contact = () => {
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-mainColor-2 text-gray-300">
-            Contact
+          <p className="text-4xl font-bold inline border-b-4 rounded-lg border-mainColor-2 text-gray-300">
+            Contact me
           </p>
-          <p className="text-gray-300 py-4">contact form</p>
         </div>
         <input
           type="text"

@@ -1,0 +1,4 @@
+.group {
+  transform: rotateY(45deg);
+  animation: rotateAnimation 1s linear infinite;
+}
