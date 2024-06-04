@@ -31,10 +31,6 @@ function Navbar() {
         <Link to="contact" smooth={true} duration={500}>
           <li className={`${styles.customBorder}`}>Contact</li>
         </Link>
-        <label className={`${styles.switch} ml-4`}>
-          <input type="checkbox" />
-          <span className={`${styles.slider}`}></span>
-        </label>
       </ul>
       {/* humberger menu button */}
       <div

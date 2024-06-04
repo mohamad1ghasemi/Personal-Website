@@ -42,34 +42,8 @@ const Works = () => {
               </div>
             </div>
           </div>
+
           {/* Start Sample-2 */}
-          <div
-            style={{
-              backgroundImage: `url(${Sample2})`,
-            }}
-            className="hover:scale-125 duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
-          >
-            <div className="opacity-0 group-hover:opacity-75 p-1 duration-300">
-              <span className="text-sm text-nowrap pt-1 font-bold text-black bg-white rounded-md px-4 pb-1">
-                Weather App
-              </span>
-              <div className="flex px-2 pt-14 gap-8 justify-center items-center">
-                <a
-                  href="https://simple-frontend-projects.vercel.app/Weather%20App/index.html"
-                  target="_blank"
-                >
-                  <img src={eyeIcon} alt="Visit this" className="w-12 h-12" />
-                </a>
-                <a
-                  href="https://github.com/mohamad1ghasemi/Simple-Frontend-Projects/tree/master/02.intermediate/Weather%20App"
-                  target="_blank"
-                >
-                  <img src={GithubIcon} alt="github" className="w-12 h-12" />
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* Start Sample-3 */}
           <div
             style={{
               backgroundImage: `url(${Sample5})`,
@@ -96,7 +70,7 @@ const Works = () => {
               </div>
             </div>
           </div>
-          {/* Start Sample-4 */}
+          {/* Start Sample-3 */}
           <div
             style={{
               backgroundImage: `url(${Sample6})`,
@@ -123,7 +97,7 @@ const Works = () => {
               </div>
             </div>
           </div>
-          {/* Start Sample-5 */}
+          {/* Start Sample-4 */}
           <div
             style={{
               backgroundImage: `url(${Sample4})`,
@@ -150,7 +124,7 @@ const Works = () => {
               </div>
             </div>
           </div>
-          {/* Start Sample-6 */}
+          {/* Start Sample-5 */}
           <div
             style={{
               backgroundImage: `url(${Sample2})`,
@@ -177,14 +151,14 @@ const Works = () => {
               </div>
             </div>
           </div>
-          {/* Start Sample-7 */}
+          {/* Start Sample-6 */}
           <div
             style={{
               backgroundImage: `url(${Sample3})`,
             }}
-            className="hover:scale-125duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
+            className="hover:scale-125 duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
           >
-            <div className="opacity-0  group-hover:opacity-75 p-1 duration-300 ">
+            <div className="opacity-0 group-hover:opacity-75 p-1 duration-300">
               <span className="text-sm text-nowrap pt-1 font-bold text-black bg-white rounded-md px-4 pb-1">
                 Personal Website
               </span>
