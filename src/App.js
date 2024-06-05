@@ -8,7 +8,7 @@ import Works from './components/Works/Works.jsx';
 import Contact from './components/Contact/Contact.jsx';
 function App() {
   return (
-    <div className="App">
+    <div className="App grid">
       <Navbar />
       <Home />
       <About />

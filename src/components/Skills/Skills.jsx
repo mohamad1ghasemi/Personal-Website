@@ -11,9 +11,9 @@ import SASS from "../../assets/icons/sass.png";
 import TAILWIND from "../../assets/icons/tailwindcss.svg";
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen text-gray-300">
+    <div name="skills" className="w-full h-screen mb-20 text-gray-300">
       {/* Start Container */}
-      <div className="max-w-[1000px] mx-auto p-4 justify-center flex flex-col w-full h-full">
+      <div className="max-w-[1100px] mx-auto p-4 justify-center flex flex-col w-full h-full">
         <div className="pb-8 text-left">
           <p className="text-4xl font-bold inline border-b-4 rounded-lg border-mainColor-2">
             Skills

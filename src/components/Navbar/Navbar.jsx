@@ -65,6 +65,7 @@ function Navbar() {
                 onClick={handleclick}
                 to="about"
                 smooth={true}
+                offset={-470}
                 duration={500}
               >
                 About
@@ -75,6 +76,7 @@ function Navbar() {
                 onClick={handleclick}
                 to="skills"
                 smooth={true}
+                offset={-180}
                 duration={500}
               >
                 Skills
@@ -85,6 +87,7 @@ function Navbar() {
                 onClick={handleclick}
                 to="works"
                 smooth={true}
+                offset={-70}
                 duration={500}
               >
                 Works
@@ -95,6 +98,7 @@ function Navbar() {
                 onClick={handleclick}
                 to="contact"
                 smooth={true}
+                offset={-90}
                 duration={500}
               >
                 Contact

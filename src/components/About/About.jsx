@@ -21,7 +21,7 @@ function About() {
         <div className="max-w-[1200px] w-full">
           <img
             src={myPhoto}
-            class="sm:float-right  sm:my-2 sm:max-w-[400px]"
+            class="hidden md:block sm:float-right  sm:my-2 sm:max-w-[400px]"
             alt="mohamad ghasemi"
           />
           <div className="text-justify mx-6 sm:text-left text-[1.4rem] sm:font-bold">
