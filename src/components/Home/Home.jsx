@@ -7,7 +7,7 @@ function Home() {
   return (
     <div
       name="home"
-      className="w-full h-screen bg-mainColor-1  sm:max-h-fit  mb-[800px] block"
+      className="w-full h-screen bg-mainColor-1  sm:max-h-fit max-sm:mt-[12vh] mb-[800px] block"
     >
       {/* Start Container */}
       <div
