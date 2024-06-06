@@ -24,7 +24,7 @@ function About() {
             class="hidden md:block sm:float-right  sm:my-2 sm:max-w-[400px]"
             alt="mohamad ghasemi"
           />
-          <div className="text-justify mx-6 sm:text-left text-[1.4rem] sm:font-bold">
+          <div className="sm:text-justify mx-6 text-left text-[1rem] sm:text-[1.4rem] sm:font-bold">
             <p>
               I am a Software Engineer with a Bachelor’s degree from Bojnord
               State University, specializing in front-end web development.
