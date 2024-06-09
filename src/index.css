@@ -5,7 +5,6 @@
 
 @layer base {
   body {
-    @apply bg-[#0A192F];
     @apply font-['Poppins'];
   }
   li {

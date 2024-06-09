@@ -11,10 +11,10 @@ import { Link } from "react-scroll";
 
 const Works = () => {
   return (
-    <div name="works" className="w-full md:h-screen text-gray-300">
+    <div name="works" className="w-full md:h-screen text-grayColor-1">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-left">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-mainColor-2 rounded-lg">
+          <p className="text-4xl font-bold inline border-b-4 text-mainDark-1 dark:text-mainColor-1 border-mainColor-2 dark:border-mainDark-2 rounded-lg">
             Works
           </p>
         </div>
@@ -26,7 +26,7 @@ const Works = () => {
             style={{
               backgroundImage: `url(${Sample1})`,
             }}
-            className="hover:scale-125 duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
+            className="md:hover:scale-125 duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
           >
             <div className="opacity-0 group-hover:opacity-75 p-1 duration-300">
               <span className="text-sm text-nowrap pt-1 font-bold text-black bg-white rounded-md px-4 pb-1">
@@ -48,7 +48,7 @@ const Works = () => {
             style={{
               backgroundImage: `url(${Sample5})`,
             }}
-            className="hover:scale-125 duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
+            className="md:hover:scale-125 duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
           >
             <div className="opacity-0 group-hover:opacity-75 p-1 duration-300">
               <span className="text-sm text-nowrap pt-1 font-bold text-black bg-white rounded-md px-4 pb-1">
@@ -75,7 +75,7 @@ const Works = () => {
             style={{
               backgroundImage: `url(${Sample6})`,
             }}
-            className="hover:scale-125 duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
+            className="md:hover:scale-125 duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
           >
             <div className="opacity-0 group-hover:opacity-75 p-1 duration-300">
               <span className="text-sm text-nowrap pt-1 font-bold text-black bg-white rounded-md px-4 pb-1">
@@ -102,7 +102,7 @@ const Works = () => {
             style={{
               backgroundImage: `url(${Sample4})`,
             }}
-            className="hover:scale-125 duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
+            className="md:hover:scale-125 duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
           >
             <div className="opacity-0 group-hover:opacity-75 p-1 duration-300">
               <span className="text-sm text-nowrap pt-1 font-bold text-black bg-white rounded-md px-4 pb-1">
@@ -129,7 +129,7 @@ const Works = () => {
             style={{
               backgroundImage: `url(${Sample2})`,
             }}
-            className="hover:scale-125 duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
+            className="md:hover:scale-125 duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
           >
             <div className="opacity-0 group-hover:opacity-75 p-1 duration-300">
               <span className="text-sm text-nowrap pt-1 font-bold text-black bg-white rounded-md px-4 pb-1">
@@ -156,7 +156,7 @@ const Works = () => {
             style={{
               backgroundImage: `url(${Sample3})`,
             }}
-            className="hover:scale-125 duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
+            className="md:hover:scale-125 duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
           >
             <div className="opacity-0 group-hover:opacity-75 p-1 duration-300">
               <span className="text-sm text-nowrap pt-1 font-bold text-black bg-white rounded-md px-4 pb-1">

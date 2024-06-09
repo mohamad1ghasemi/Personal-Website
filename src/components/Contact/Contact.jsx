@@ -68,7 +68,7 @@ const Contact = () => {
         onSubmit={handleSubmit}
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 rounded-lg border-mainColor-2 text-gray-300">
+          <p className="text-4xl font-bold inline border-b-4 rounded-lg border-mainColor-2 dark:border-mainDark-2 text-mainDark-1 dark:text-mainColor-1">
             Contact me
           </p>
         </div>
@@ -76,7 +76,7 @@ const Contact = () => {
           type="text"
           placeholder="Name"
           name="name"
-          className="bg-whiteColor-1 p-2 rounded-md"
+          className="bg-grayColor-1 dark:bg-whiteColor-1 placeholder:text-mainColor-1 dark:placeholder:text-grayColor-1 text-mainColor-1 p-2 rounded-md"
           value={formData.name}
           onChange={handleChange}
         />
@@ -85,7 +85,7 @@ const Contact = () => {
           type="Email"
           placeholder="Email"
           name="email"
-          className="bg-[#ccd6f6] p-2 my-4 rounded-md"
+          className="bg-grayColor-1 dark:bg-whiteColor-1 placeholder:text-mainColor-1 dark:placeholder:text-grayColor-1 text-mainColor-1 p-2 my-4 rounded-md"
           value={formData.email}
           onChange={handleChange}
         />
@@ -95,12 +95,12 @@ const Contact = () => {
           cols="30"
           rows="10"
           placeholder="Message"
-          className="bg-[#ccd6f6] p-2 rounded-md"
+          className="bg-grayColor-1 dark:bg-whiteColor-1 placeholder:text-mainColor-1 dark:placeholder:text-grayColor-1 text-mainColor-1 p-2 rounded-md"
           value={formData.message}
           onChange={handleChange}
         ></textarea>
         {errors.message && <p className="text-red-500">{errors.message}</p>}
-        <button className="text-white rounded-full border-2 hover:bg-mainColor-2 px-4 py-2 my-8 mx-auto flex items-center">
+        <button className="text-mainDark-1 dark:text-whiteColor-1 rounded-full border-2 border-mainDark-1 dark:border-mainColor-1 hover:bg-mainColor-2 hover:text-mainColor-1 dark:hover:bg-mainDark-2 px-4 py-2 my-8 mx-auto flex items-center">
           Submit
         </button>
       </form>

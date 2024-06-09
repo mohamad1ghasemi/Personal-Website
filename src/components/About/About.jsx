@@ -1,18 +1,17 @@
 import React from "react";
 import myPhoto from "../../assets/images/myPhoto1.png";
-import styles from "./about.module.css";
 function About() {
   return (
     <div
       name="about"
-      className="w-full h-screen text-gray-300 sm:max-h-fit  mb-[800px] block"
+      className="w-full h-screen text-mainDark-1 dark:text-mainColor-1 sm:max-h-fit  mb-[800px] block"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1200px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-left pb-8 pl-4">
             <p
               className="text-4xl font-bold inline border-b-4
-            rounded-lg border-mainColor-2"
+            rounded-lg border-mainColor-2 dark:border-mainDark-2"
             >
               About
             </p>
