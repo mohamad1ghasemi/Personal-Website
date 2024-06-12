@@ -135,7 +135,10 @@ const Works = () => {
               <span className="text-sm text-nowrap pt-1 font-bold text-black bg-white rounded-md px-4 pb-1">
                 ToursToTuscany
               </span>
-              <div className="flex px-2 pt-14 gap-8 justify-center items-center">
+              <p className="text-red-600 text-xl bg-black">
+                Under Repairing ...
+              </p>
+              {/* <div className="flex px-2 pt-14 gap-8 justify-center items-center">
                 <a
                   href="https://tours-to-tuscany-project.vercel.app"
                   target="_blank"
@@ -148,7 +151,7 @@ const Works = () => {
                 >
                   <img src={GithubIcon} alt="github" className="w-12 h-12" />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* Start Sample-6 */}
