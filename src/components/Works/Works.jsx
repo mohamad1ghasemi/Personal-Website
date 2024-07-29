@@ -5,6 +5,7 @@ import Sample3 from "../../assets/images/Sample3.png";
 import Sample4 from "../../assets/images/Sample4.png";
 import Sample5 from "../../assets/images/Sample5.png";
 import Sample6 from "../../assets/images/Sample6.png";
+import Sample7 from "../../assets/images/Sample7.png";
 import eyeIcon from "../../assets/icons/eyeIcon.png";
 import GithubIcon from "../../assets/icons/githubIcon.png";
 import { Link } from "react-scroll";
@@ -135,23 +136,7 @@ const Works = () => {
               <span className="text-sm text-nowrap pt-1 font-bold text-black bg-white rounded-md px-4 pb-1">
                 ToursToTuscany
               </span>
-              <p className="text-red-600 text-xl bg-black">
-                Under Repairing ...
-              </p>
-              {/* <div className="flex px-2 pt-14 gap-8 justify-center items-center">
-                <a
-                  href="https://tours-to-tuscany-project.vercel.app"
-                  target="_blank"
-                >
-                  <img src={eyeIcon} alt="Visit this" className="w-12 h-12" />
-                </a>
-                <a
-                  href="https://github.com/mohamad1ghasemi/ToursToTuscany-Project"
-                  target="_blank"
-                >
-                  <img src={GithubIcon} alt="github" className="w-12 h-12" />
-                </a>
-              </div> */}
+              <p className="text-red-600 text-sm bg-black">Under working ...</p>
             </div>
           </div>
           {/* Start Sample-6 */}
@@ -180,6 +165,20 @@ const Works = () => {
                   <img src={GithubIcon} alt="github" className=" w-12 h-12" />
                 </a>
               </div>
+            </div>
+          </div>
+          {/* Start Sample-7 */}
+          <div
+            style={{
+              backgroundImage: `url(${Sample7})`,
+            }}
+            className="md:hover:scale-125 duration-300 h-[200px] bg-center bg-cover border-1 border-slate-10 shadow-2xl shadow-gray-400 group container rounded-md flex justify-center items-center mx-auto"
+          >
+            <div className="opacity-0 group-hover:opacity-75 p-1 duration-300">
+              <span className="text-sm text-nowrap pt-1 font-bold text-black bg-white rounded-md px-4 pb-1">
+                Set Poosh
+              </span>
+              <p className="text-red-600 text-sm bg-black">Under working ...</p>
             </div>
           </div>
         </div>

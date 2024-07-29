@@ -5,6 +5,7 @@ import Social from "../Social/Social";
 import { Link } from "react-scroll";
 import styles from "./Navbar.module.css";
 import { ThemeContext } from "../themeChanger/ThemeContext.js";
+import resume from "../../assets/files/Mohammad-Gasemi-CV.pdf";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -116,6 +117,12 @@ function Navbar() {
               >
                 Contact
               </Link>
+            </li>
+
+            <li className="mb-3 py-6 text-4xl">
+              <a href={resume} target="_blank">
+                Resume
+              </a>
             </li>
           </ul>
         </div>

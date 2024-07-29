@@ -1,5 +1,5 @@
-import React, { createContext, useState, useEffect } from 'react';
-import useDarkSide from '../themeChanger/useDarkSide.js';
+import React, { createContext, useState, useEffect } from "react";
+import useDarkSide from "../themeChanger/useDarkSide.js";
 
 export const ThemeContext = createContext();
 
@@ -8,7 +8,7 @@ export const ThemeProvider = ({ children }) => {
   const [darkSide, setDarkSide] = useState(true);
 
   useEffect(() => {
-    setTheme(darkSide ? 'dark' : 'light');
+    setTheme(darkSide ? "dark" : "light");
   }, [darkSide, setTheme]);
 
   const toggleTheme = () => {

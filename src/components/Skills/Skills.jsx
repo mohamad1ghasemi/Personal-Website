@@ -5,7 +5,8 @@ import GitHub from "../../assets/icons/github.png";
 import responsiveDesign from "../../assets/icons/responsive-web.png";
 import JavaScript from "../../assets/icons/js.png";
 import React1 from "../../assets/icons/react.png";
-import FIGMA from "../../assets/icons/figma.png";
+import TypeScript from "../../assets/icons/Typescript.png";
+import Redux from "../../assets/icons/Redux.png";
 import GIT from "../../assets/icons/git.png";
 import SASS from "../../assets/icons/sass.png";
 import TAILWIND from "../../assets/icons/tailwindcss.svg";
@@ -58,8 +59,12 @@ const Skills = () => {
             <p className="mt-8">Tailwindcss</p>
           </div>
           <div className="shadow-md shadow-mainColor-2  dark:shadow-mainDark-2 bg-mainColor-2  dark:bg-mainDark-2 dark:shadow-mainDark-1 hover:scale-110 duration-500">
-            <img className="w-14 mx-auto" src={FIGMA} />
-            <p className="mt-6">Figma</p>
+            <img className="w-20 mx-auto" src={Redux} />
+            <p className="mt-6">Redux</p>
+          </div>
+          <div className="shadow-md shadow-mainColor-2  dark:shadow-mainDark-2 bg-mainColor-2  dark:bg-mainDark-2 dark:shadow-mainDark-1 hover:scale-110 duration-500">
+            <img className="w-14 mx-auto" src={TypeScript} />
+            <p className="mt-6">TypeScript</p>
           </div>
         </div>
       </div>

@@ -2,11 +2,11 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import redw from "../../assets/files/Mohammad Gasemi CV.pdf";
+import redw from "../../assets/files/Mohammad-Gasemi-CV.pdf";
 
 function Social() {
   return (
-    <div className="hidden lg:block flex fixed flex-col top-[20%] left-0">
+    <div className="hidden md:block flex fixed flex-col top-[20%] left-0">
       <ul>
         {/* Start linkdin */}
         <li className="w-[150px] h-[40px] pt-[5px] ml-[-100px] pr-2 pt-1 justify-between items-center hover:ml-[-10px] duration-300 bg-sky-500">
